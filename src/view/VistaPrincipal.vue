@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Componente1 from "@/components/ComponenteUnoUno.vue"; 
+import Componente1 from "@/components/Componente1.vue"; 
 
 export default {
     components:{

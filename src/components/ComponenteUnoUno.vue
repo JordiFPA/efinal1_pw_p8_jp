@@ -1,26 +1,28 @@
 <template>
   <div>
-    <img :src="imagen" alt="no hay" /> 
-    <p>{{texto}} </p>
+    <img :src="imagen" alt="no hay" />
+    <p>{{ texto }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  data(){ 
-    return {
-      imagen:{ 
-        type: String, 
-      },
-      texto:{
-        type:String
-      }
-
-
-    }
-  }
+  data() {
+    return {};
+  },
+  props: {
+    imagen: {
+      type: String,
+    },
+    texto: {
+      type: String,
+    },
+  },
 };
 </script>
 
 <style>
+  img{
+    padding: 20px;
+  }
 </style>
